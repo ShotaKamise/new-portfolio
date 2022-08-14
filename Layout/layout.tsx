@@ -5,7 +5,7 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <Header />
-      {children}
+      <div className="h-[calc(100%_-_66px)]">{children}</div>
     </>
   );
 };

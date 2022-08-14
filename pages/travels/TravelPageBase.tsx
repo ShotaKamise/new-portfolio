@@ -1,6 +1,4 @@
-import { NextPage } from "next";
 import Head from "next/head";
-import { type } from "os";
 import { ReactNode } from "react";
 import SideMenu from "../../components/sideMenu";
 import { travelMenues } from "../../resources/travels/menues";
@@ -13,7 +11,7 @@ const TravelPageBase = ({ children }: Props) => {
         <title>My Travel</title>
       </Head>
       <main>
-        <div className="flex">
+        <div className="flex h-[calc(100vh-85.5px)]">
           <SideMenu menues={travelMenus} />
           {children}
         </div>

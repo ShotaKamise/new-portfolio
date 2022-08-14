@@ -1,7 +1,4 @@
-export type Menu = {
-  menuName: string;
-  path: string;
-};
+import { Menu } from "../../components/sideMenu";
 
 export const travelMenues: Menu[] = [
   {

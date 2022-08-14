@@ -1,7 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import type { NextPage } from "next";
 import Head from "next/head";
-
-import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -26,12 +25,7 @@ const Home: NextPage = () => {
             </ul>
           </div>
           <div className="col-start-5 col-span-8">
-            <Image
-              src="/homeImage.png"
-              alt="homeImage"
-              width={1000}
-              height={800}
-            />
+            <img src="/homeImage.png" alt="homeImage" className="w-full" />
           </div>
         </div>
       </main>

@@ -8,7 +8,9 @@ const Header = () => {
         <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div className="text-left ml-7 cursor-pointer">
             <Link href={"/"}>
-              <Image alt="logo" src="/pageLogo.png" height={56} width={52} />
+              <div>
+                <Image alt="logo" src="/pageLogo.png" height={56} width={52} />
+              </div>
             </Link>
           </div>
           <div className="text-right text-2xl text-main-white lg:flex-grow">

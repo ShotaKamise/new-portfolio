@@ -14,9 +14,9 @@ module.exports = {
         "hover-text": "#EECFBF",
       },
       fontFamily: {
-        sans: ["K2D"],
+        sans: ["K2D-Medium"],
       },
     },
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin")],
 };
