@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { NextPage } from "next";
+import { s3URL } from "../resources/s3Settings";
 
 export type CarouselImage = {
   number: number;
@@ -50,7 +51,7 @@ const Carousel: NextPage<Props> = ({ images }) => {
               key={image.number}
             >
               <img
-                src={image.imagePath}
+                src={`${s3URL}${image.imagePath}`}
                 className="block object-cover"
                 alt="..."
               />
@@ -61,7 +62,7 @@ const Carousel: NextPage<Props> = ({ images }) => {
               key={image.number}
             >
               <img
-                src={image.imagePath}
+                src={`${s3URL}${image.imagePath}`}
                 className="block w-full object-cover"
                 alt="..."
               />

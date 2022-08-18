@@ -36,7 +36,7 @@ const Careers: NextPage = ({
               key={career.id}
               className="my-6 max-w-sm w-full lg:max-w-full lg:flex justify-center"
             >
-              <div className="py-4 border border-gray-400 bg-white rounded w-4/5 flex items-center leading-normal shadow-lg">
+              <div className="py-4 bg-white rounded w-4/5 flex items-center leading-normal shadow-lg">
                 <div className="mx-6 text-xl text-gray-600 justify-center text-center font-['Norican']">
                   {career.count} Career
                 </div>
