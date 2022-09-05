@@ -10,8 +10,8 @@ const TravelPageBase = ({ children }: Props) => {
       <Head>
         <title>My Travel</title>
       </Head>
-      <main>
-        <div className="flex h-[calc(100vh-85.5px)]">
+      <main className="overflow-hidden">
+        <div className="flex h-[calc(100vh-0.1px)] bg-main-blue pt-24">
           <SideMenu menues={travelMenus} />
           {children}
         </div>

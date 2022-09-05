@@ -9,8 +9,8 @@ const Africa = () => {
   return (
     <>
       <TravelPageBase>
-        <div className="grid grid-cols-12 h-full">
-          <div className="pt-8 pl-8 col-span-3 col-start-1 h-[calc(100vh-85.5px)]">
+        <div className="grid grid-cols-12 h-screen">
+          <div className="pl-8 col-span-3 col-start-1">
             <p className="text-2xl leading-loose font-['K2D-Light']">
               July 2013 <br /> Morocco was the only country I visited in Africa.
               <br />

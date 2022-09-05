@@ -17,7 +17,7 @@ const SouthAmerica = () => {
               <br />
               The scenery right in front of me was hard to believe.
               <br />
-              Eventhough the scenery was perfect, south america was the most
+              Although the scenery was perfect, south america was the most
               unsafe place of my travel.
             </p>
           </div>

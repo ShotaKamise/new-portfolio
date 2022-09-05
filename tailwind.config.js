@@ -8,10 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "header-blue": "#202F55",
+        "main-blue": "#202F55",
         "main-white": "#F5F5F5",
         "side-bar": "#A6ACBB",
-        "hover-text": "#EECFBF",
+        "hover-text": "#E0D426",
+        "sub-yellow": "#E0D426",
       },
       fontFamily: {
         sans: ["K2D-Medium"],

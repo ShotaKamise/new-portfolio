@@ -1,10 +1,10 @@
 ---
 id: 3
 count: "3rd"
-companyName: "Sail Corporation"
-position: "I was a web engineer"
-startDate: "2020-04-01"
-endDate: "until now"
+companyName: "Programmer (create sales team support tool)"
+position: "Created the whole system by myself from design to coding."
+startDate: "Temporary"
+endDate: ""
 ---
 
-How to create a web site, How to manage a team, How to design a system, How to code mainly backend but also frontend
+Google App Script, Google Spread Sheet
