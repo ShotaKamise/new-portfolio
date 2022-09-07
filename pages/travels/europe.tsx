@@ -13,10 +13,13 @@ const Europe = () => {
         <div className="grid grid-cols-12 h-full">
           <div className="pt-8 pl-8 col-span-3 col-start-1 h-[calc(100vh-85.5px)]">
             <p className="text-2xl leading-loose font-['K2D-Light']">
-              June 2013 <br /> Traveled many european countries.
+              June 2013 <br /> Traveled many countries in Europe.
               <br />
-              I cannot decide which place is the best because there are so many
-              places I really enjoyed.
+              It is hard to decide which place is the best.
+              <br />
+              I wish I could have traveled more.
+              <br />
+              Never to be bored to travel european countries.
               <br />
             </p>
           </div>

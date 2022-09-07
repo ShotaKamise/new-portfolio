@@ -12,10 +12,12 @@ const SouthEastAsia = () => {
         <div className="grid grid-cols-12 h-full">
           <div className="pt-8 pl-8 col-span-3 col-start-1 h-[calc(100vh-85.5px)]">
             <p className="text-2xl leading-loose font-['K2D-Light']">
-              August 2012 <br /> My World Travel had begun from SouthEastAsia.{" "}
+              August 2012 <br /> My World Travel had begun from SouthEastAsia.
               <br />
-              Beautiful natures, but also many troubles like landslides, a
-              terrible tour and a motorbike accident.
+              Beautiful natures, historical places.
+              <br />
+              Also many troubles like landslides a worst tour guide and a
+              motorbike accident.
               <br />
               But thanks to those experiences, I got used to backpacker travel
               life.

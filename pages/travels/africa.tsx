@@ -12,13 +12,14 @@ const Africa = () => {
         <div className="grid grid-cols-12 h-screen">
           <div className="pl-8 col-span-3 col-start-1">
             <p className="text-2xl leading-loose font-['K2D-Light']">
-              July 2013 <br /> Morocco was the only country I visited in Africa.
+              July 2013 <br /> Morocco was the only country I have visited in
+              Africa.
               <br />
-              Traveled Sahara desert by riding a camel, looked exactly my image
-              of desert.
+              Traveled Sahara desert, rode a camel, these experiences were
+              unforgettable.
               <br />
-              Also the sunset on desert was the most beautiful sunset I have
-              ever seen.
+              And the sunset on desert was the most beautiful sunset I have ever
+              seen.
             </p>
           </div>
 

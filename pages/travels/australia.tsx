@@ -12,9 +12,9 @@ const Australia = () => {
         <div className="grid grid-cols-12 h-full">
           <div className="pt-8 pl-8 col-span-3 col-start-1 h-[calc(100vh-85.5px)]">
             <p className="text-2xl leading-loose font-['K2D-Light']">
-              January 2013 <br /> Visiting Australia was so adventurous.
+              January 2013 <br /> Australia was so adventurous.
               <br />
-              Lots of animals, big natures, I visited from northern part to
+              A lot of animals, big natures, I traveled from northern part to
               southern part and east coast too.
               <br />
             </p>

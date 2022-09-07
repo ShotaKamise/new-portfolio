@@ -12,13 +12,14 @@ const SouthAmerica = () => {
         <div className="grid grid-cols-12 h-full">
           <div className="pt-8 pl-8 col-span-3 col-start-1 h-[calc(100vh-85.5px)]">
             <p className="text-2xl leading-loose font-['K2D-Light']">
-              Feburary 2013 <br /> My favorite place of the world is definetely
-              Uyuni lake.
+              Feburary 2013 <br /> My favorite place of the world is Uyuni lake
+              in Bolivia.
               <br />
-              The scenery right in front of me was hard to believe.
+              I still remember the scenery of the lake and still cannot belive I
+              was there.
               <br />
-              Although the scenery was perfect, south america was the most
-              unsafe place of my travel.
+              Othere places in South America like Rio&apos;s Carnival, Iguaz
+              falls, and Machupichu were also memorable.
             </p>
           </div>
 

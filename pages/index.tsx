@@ -36,7 +36,7 @@ const Home: NextPage = ({
         <title>Shota&apos;s Portfolio</title>
       </Head>
       <main className="bg-main-blue">
-        <div className="w-full h-4/5">
+        <div id="top" className="w-full h-4/5">
           <img src="/homeImage.png" alt="homeImage" className="w-full" />
         </div>
         <IndexTitle id="aboutMe" title="Who am I ?" />
@@ -113,7 +113,7 @@ const Home: NextPage = ({
           <div className="col-span-7 col-start-6">
             <p className="ml-5 font-bold text-3xl">Asia : </p>
             <p className="ml-8">
-              Tiwan China HongKong Macau Vietnam Laos Thailand Cambodia
+              Taiwan China HongKong Macau Vietnam Laos Thailand Cambodia
               Philippines SouthKorea <br />
               India Malaysia Singapore
             </p>
@@ -140,7 +140,7 @@ const Home: NextPage = ({
             <p className="ml-8">Morocco</p>
             <br />
             <Link href={"/travels/usa"}>
-              <a className="underline text-xl ml-5">more details...</a>
+              <a className="underline text-3xl ml-5">photos &rarr;</a>
             </Link>
           </div>
         </div>
