@@ -5,8 +5,6 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 
-const careersDirectory = path.join(process.cwd(), "/resources/careers");
-
 export type Career = {
   id: number;
   count: string;
@@ -17,7 +15,8 @@ export type Career = {
   description: string;
 };
 
-export async function getSortedCareersData() {
+const getStaticProps = () => {
+  const careersDirectory = path.join(process.cwd(), "/resources/careers");
   // /posts配下のファイル名を取得
   const fileNames: string[] = fs.readdirSync(careersDirectory);
   var allCareersData: Array<Career> = [];
@@ -52,4 +51,8 @@ export async function getSortedCareersData() {
   });
 
   return allCareersData;
+};
+
+export async function getSortedCareersData() {
+  return getStaticProps();
 }
