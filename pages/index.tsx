@@ -2,8 +2,8 @@
 import type { GetStaticProps, InferGetStaticPropsType, NextPage } from "next";
 import Head from "next/head";
 import IndexTitle from "../components/indexTitle";
-import { Career, getSortedCareersData } from "./lib/careers";
-import { dateFormatter } from "./lib/dateFormatter";
+import { Career, getSortedCareersData } from "../lib/careers";
+import { dateFormatter } from "../lib/dateFormatter";
 import WorldMap from "../public/world-map.svg";
 import SkillsAndTools from "../components/skillsAndTools";
 import Mail from "../public/mail.svg";
