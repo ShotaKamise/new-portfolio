@@ -82,9 +82,16 @@ const Home: NextPage = ({
                   {career.count} Career
                 </div>
                 <div className="box">
-                  <p className="text-sm ">{`From ${dateFormatter(
-                    career.startDate
-                  )} to ${dateFormatter(career.endDate)}`}</p>
+                  {career.startDate && career.endDate && (
+                    <p className="text-sm ">
+                      {`From ${dateFormatter(
+                        career.startDate
+                      )} to ${dateFormatter(career.endDate)}`}
+                    </p>
+                  )}
+                  {!career.endDate && typeof career.startDate == "string" && (
+                    <p>{career.startDate}</p>
+                  )}
                   <div className="font-bold text-2xl">{career.companyName}</div>
                   <p className="mb-3">{career.position}</p>
                   <p className="text-sm flex items-center">
@@ -154,7 +161,7 @@ const Home: NextPage = ({
           </div>
           <div className="col-start-6 col-span-4">
             <p className="inline-block text-3xl underline">
-              afasdsfdsf@gads.com
+              shotakamise258@gmail.com
             </p>
           </div>
         </div>
